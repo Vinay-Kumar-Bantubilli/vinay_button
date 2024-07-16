@@ -30,11 +30,11 @@ class VinayContainer {
             // Navigate to targetPage if provided, else navigate to NextPage
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => targetPage ?? MyButtonPage()),
+              MaterialPageRoute(builder: (context) => targetPage ?? const MyButtonPage()),
             );
           },
-          child: Text(label),
           style: ElevatedButton.styleFrom(backgroundColor: color),
+          child: Text(label),
         );
       },
     );
