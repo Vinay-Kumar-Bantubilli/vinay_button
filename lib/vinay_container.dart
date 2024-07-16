@@ -34,7 +34,7 @@ class VinayContainer {
             );
           },
           child: Text(label),
-          style: ElevatedButton.styleFrom(primary: color),
+          style: ElevatedButton.styleFrom(backgroundColor: color),
         );
       },
     );
