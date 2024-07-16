@@ -12,10 +12,10 @@ class _MyButtonPageState extends State<MyButtonPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My button Page'),
+        title: const Text('My button Page'),
       ),
 
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
